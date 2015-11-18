@@ -1,5 +1,5 @@
-(C) Copyright 2015 (Sean Chester)[https://github.com/sean-chester] 
-and (Leon Derczynski)[http://derczynski.com/]
+(C) Copyright 2015 [Sean Chester](https://github.com/sean-chester)
+and [Leon Derczynski](http://derczynski.com/)
 (C) Copyright 2007-2012, Percy Liang
 
 http://cs.stanford.edu/~pliang

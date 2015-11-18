@@ -30,13 +30,21 @@ Greedily clustering word types based on *average mutual information*
 merge list (assuming _a_ = _|V|_ = 10):
 
 > snakes spiders 8
+
 > dogs cats 7
+
 > Alice Bob 6
+
 > and while 5
+
 > likes hates 4
+
 > dogs snakes 3
+
 > dogs and 2
+
 > dogs Alice 1
+
 > dogs likes 0
 
 One can then recall any historical state of the computation in order to 
