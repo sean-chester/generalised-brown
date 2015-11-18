@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 #                                       cluster.py
 #                       &copy; Sean Chester (sean.chester@idi.ntnu.no)
+#                       &copy; Leon Derczynski (leon@dcs.shef.ac.uk)
 #                                      22 July 2015
 
 import csv
@@ -50,7 +51,7 @@ with open( args.input ) as tsv:
 	for line in reversed(list(csv.reader(tsv, delimiter="\t", quotechar=None))):
 		merge_into = line[0]
 		merge_from = line[1]
-		if not tree.has_key(merge_into):
+		if not merge_into in tree:
 			tree[merge_into] = "0"
 			tree[merge_from] = "1"
 			args.leaves = args.leaves - 2
