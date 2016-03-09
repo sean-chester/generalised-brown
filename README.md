@@ -10,6 +10,7 @@ version 1.0
   * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
+  * [Datasets](#datasets)
   * [Contact](#contact)
   
 
@@ -160,6 +161,13 @@ See the relevant sub-directories of this repository for the
 specific details of each license.
 
 
+------------------------------------
+### Datasets
+<a name="datasets"></a>
+
+You can find aclusters induced from the RCV1 data, including a full
+merge file, with a=2560, here:
+[http://derczynski.com/sheffield/resources/rcv.a2560.tar.bz2](http://derczynski.com/sheffield/resources/rcv.a2560.tar.bz2)
 
 ------------------------------------
 ### Contact
